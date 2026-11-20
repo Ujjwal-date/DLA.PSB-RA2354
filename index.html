@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Records</title>
+
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Student Records</h1>
+        <p id="count"></p>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+
+        <!-- Search Box -->
+        <input
+            type="text"
+            id="searchBox"
+            placeholder="Search by roll no or name..."
+        >
+
+        <!-- Status Message -->
+        <p id="status"></p>
+
+        <!-- Student Table -->
+        <table id="studentTable">
+
+            <thead>
+                <tr>
+                    <th data-key="srNo">Sr No</th>
+                    <th data-key="rollNo">Roll No</th>
+                    <th data-key="name">Student Name</th>
+                    <th data-key="tenth">10th</th>
+                    <th data-key="twelfth">12th</th>
+                    <th data-key="sem1">Sem 1</th>
+                    <th data-key="sem2">Sem 2</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody">
+                <!-- Student records will be added here using JavaScript -->
+            </tbody>
+
+        </table>
+
+    </main>
+
+    <!-- Link JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
